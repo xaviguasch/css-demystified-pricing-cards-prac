@@ -1,5 +1,5 @@
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   text-align: center;
 }
 
@@ -23,12 +23,20 @@ h1 {
 }
 
 .plan {
-  color: #fff;
-  background: linear-gradient(-45deg, #00a1ab, #3741a0);
   width: 200px;
   padding: 2em;
   border-radius: 1em;
   margin: 0 0.5em;
+}
+
+.plan--normal {
+  color: #4e4e4e;
+  background: linear-gradient(-45deg, #e5e3e8, #fff);
+}
+
+.plan--super {
+  color: #fff;
+  background: linear-gradient(-45deg, #00a1ab, #3741a0);
 }
 
 .plan__title {
@@ -40,6 +48,10 @@ h1 {
   font-size: 3rem;
   font-weight: 900;
   margin: 0;
+}
+
+.plan__price--normal {
+  color: #00cdac;
 }
 
 .plan__price span {
@@ -61,4 +73,13 @@ h1 {
   border-radius: 0.25em;
   text-transform: uppercase;
   font-weight: 700;
+}
+
+.plan__button--normal {
+  background: #4e4e4e;
+  color: white;
+}
+.plan__button--super {
+  background: white;
+  color: #4e4e4e;
 }
